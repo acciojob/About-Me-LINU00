@@ -1,1 +1,111 @@
 
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      margin: 30px auto;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .left {
+      width: 50%;
+      background: #f9f9f9;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .profile-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .profile-box img {
+      width: 140px;
+      height: 140px;
+      border-radius: 5px;
+      margin-right: 15px;
+    }
+    .details {
+      text-align: left;
+    }
+    .details p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .skills {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .skills h3 {
+      margin-bottom: 10px;
+    }
+    .skill {
+      margin-bottom: 20px;
+    }
+    .skill span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+    .skill img {
+      width: 20px;
+      height: 20px;
+    }
+    .percent {
+      text-align: right;
+      font-size: 12px;
+      margin-bottom: 3px;
+      color: #333;
+      font-weight: bold;
+    }
+    .progress {
+      background: #eee;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 12px;
+      position: relative;
+    }
+    .progress div {
+      height: 12px;
+      background: #2196F3;
+      border-radius: 20px;
+    }
+    .img{
+      height: 60px;
+    }
+    .right {
+      width: 65%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .right h2 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .line {
+      width: 60px;
+      height: 3px;
+      background: #2196F3;
+      margin-bottom: 15px;
+    }
+    .right p {
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+    /* Progress Bar Widths */
+    .p95 {width: 95%;}
+    .p90 {width: 90%;}
+    .p99 {width: 99%;}
+    .p93 {width: 93%;}
+  
